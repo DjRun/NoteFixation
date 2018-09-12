@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/web.css">
+    <link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/hero.css">
+    <link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bulma-carousel.min.css">
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+        <script type="text/javascript">
+            google.maps.event.addDomListener(window, 'load', init);
+            function init() {
+                var mapOptions = {
+                    zoom: 11,
+                    center: new google.maps.LatLng(40.3785442,49.8463778), 
+                    styles: [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#e9e9e9"},{"lightness":17}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#ffffff"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":16}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":21}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#dedede"},{"lightness":21}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#ffffff"},{"lightness":16}]},{"elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#333333"},{"lightness":40}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#f2f2f2"},{"lightness":19}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#fefefe"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#fefefe"},{"lightness":17},{"weight":1.2}]}]
+                };
+                var mapElement = document.getElementById('map');
+                var map = new google.maps.Map(mapElement, mapOptions);
+                var marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(40.3785442,49.8463778),
+                    map: map,
+                    title: 'Snazzy!'
+                });
+            }
+        </script>
+    </style>
+</head>
+
+<body>
+    <div id="pagewrap">
+        <section class=" hero is-primary is-fullheight header-image container-fluid">
+            <div class="hero-head">
+                <nav class="navbar is-transparent">
+                    <div style="margin:20px;" class="navbar-brand">
+                    <img style="width: 220px;height: 50px; display: table; margin:50px; " src="Pictures/Logo/logo.svg" alt="Bulma: a modern CSS framework based on Flexbox">
+                        <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div id="navbarExampleTransparentExample" class="navbar-menu">
+                        <div class="navbar-end" style="z-index: 20;">
+                            <a  class="navbar-item " href="#home">Home</a>
+                            <a class="navbar-item " href="#about">About</a>
+                            <a  class="navbar-item " href="#products">Products</a>
+                            <a  class="navbar-item " href="#donateus">Donate Us/Invest Us</a>
+                            <a class="navbar-item"  class="navbar-item  " href="#contact">Contact</a>
+                        <div style="margin:50px;"  class="navbar-end">
+                            <a class="socif"  href="https://www.facebook.com/controldigitalagency"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a style="margin-left:10px;" href="#"><i class=" fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a style="margin-left:10px;" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="hero-body">
+                <div class="columns">
+                    <div class="column is-8">
+                        <h1 style="color: white;" class="greeting-text">
+                            Family & Home Shopping
+                            Management system
+                        </h1>
+                    </div>
+                    <div  class="column right-phone">
+                        <img  class="rightPhone" src="Pictures/left-phone.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section id="about" style="padding-bottom:70px;" class="isfullheight container-fluid">
+        <div class="columns">
+            <div class="column">
+                <img style="margin-top: 35vh;" src="Pictures/qol.png" alt="">
+            </div>
+            <div class="column has-text-centered">
+                <h1  style="margin-top: 25px; font-size: 25px;">
+                    ABOUT
+                </h1>
+                <div style="margin-top:10vh;">
+                    <p>The new system which is using the smart wrist
+                        <br>bracelet will make people’s life even much easier. By
+                        <br> using the smart wrist bracelet, you can easily
+                        <br> convert what you say into an electronic note and
+                        <br> you can add it to your daily plans. So, you can
+                        <br> simply make a list of things to do, including things
+                        <br> to do at home and things to buy outside for your
+                        <br> home. You can easily get in touch with your family
+                        <br> members through this mobile application. You can
+                        <br> get additional tasks or to-do lists from them and
+                        <br> even you are able to edit these tasks. Additionally,
+                        <br> there is a feature called System Deep Learning
+                        <br> which creates a list of daily things to do and
+                        <br> products to be purchased in terms of what you have
+                        <br> done and purchased so far daily.
+                        <br> The system are able to be operated by both wrist bracelet and mobile application independently.</p>
+                </div>
+            </div>
+            <div class="column left-phone">
+                <img style="margin-top:20vh;" class="rightPhone" src="Pictures/group.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="products" style="padding-bottom:50px;" class="is-primary is-fullheight container-fluid header-image1">
+        <div class="title is-2 has-text-centered">
+            <h1 style="color:#1B745C; font-weight: bold; font-size:25px; padding-top:40px;">PRODUCTS</h1>
+        </div>
+        <div class="columns">
+            <div class="column">
+                <img style="display:table; margin:30px auto;" class="rightPhone" src="Pictures/right-phone.png" alt="">
+                <h5 style="display:table; margin:20px auto; color: #1B745C;" class="title is-5">
+                    Download The
+                </h5>
+                <div style="display: table; margin:30px auto;" class="store">
+                    <a>
+                        <img src="Pictures/appstore.png" alt="">
+                    </a>
+                    <a>
+                        <img src="Pictures/playstore.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div style="margin-top: 10vh;" class="column title is-4 has-text-centered">
+                <h4 style="font-weight: bold;">
+                    The product is smart wrist bracelet,<br>
+                        &<br>
+                        Mobile Application</h4>
+            </div>
+            <div class="column">
+                <img class="watch" src="Pictures/Apple-Watch-Mockup.png" alt="">
+                <a href="#">
+                    <button class="buynow">Buy Now</button>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="donateus">
+        <div class='carousel carousel-animated carousel-animate-slide'>
+            <div class='carousel-container'>      
+                <div class='carousel-item has-background is-active'>
+                    <h1 style="color:#1B745C; font-weight: bold; font-size:25px;;" class="has-text-centered">DONATE US</h1>
+                    <div class="is-overlay  has-text-centered">
+                        <a class="donus" href="#">  
+                            <img class="donus"  class="is-background is-fixed" src="Pictures/donateus.png">
+                        </a>
+                    </div>
+                    <img class="is-background " src="Pictures/donate-us.png" alt="" width="640" height="310" />
+                </div>
+                <div class='carousel-item has-background'>
+                    <h1 style="color:#1B745C; font-weight: bold; font-size:25px; " class="has-text-centered">INVEST US</h1>
+                    <div class="is-overlay  has-text-centered">
+                        <a class="inus" href="#">  
+                            <img class="inus" class="is-background is-fixed" src="Pictures/investus.png">
+                        </a>
+                    </div>
+                    <img class="is-background" src="Pictures/Watch_hands_on_mockup.png" alt="" width="640" height="310" />
+                </div>
+            </div>
+            <div class="carousel-navigation is-overlay">     
+                <div class="carousel-nav-left">
+                    <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                </div>
+                <div class="carousel-nav-right">
+                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="title is-2 has-text-centered">
+            <h2 style="color:#1B745C; font-weight: bold; font-size:25px; padding-top:40px;">Contacts</h2>
+        </div>
+        <div style="font-family:Selfica;" class="columns">
+            <div class="column">
+            <div class="is-hidden-mobile"  style="padding:15px 5px 15px 5px;color:#4E4D5A;margin-top:470px;background-color:#F2F2F2;font-size:20px;" class="button is-light">
+                Product by <a style="color:#1B745C;" href="http://www.teching.co">&nbsp; TECHING&nbsp;  </a>LLC.</div>
+            </div>
+            <div style="display:table; margin:100px auto;" class="column">
+                <div class="columns">
+                    <div style="color: #1B745C; font-family: Selfica-light; font-size: 22px;" class="esas column">Location</div>
+                    <div style="color: #009688;" class="sub column">
+                        <p style="font-size:15px;" class="sub">Azadlig ave.16-20, Baku, Azerbaijan.
+                            <br> Postal code: AZ1010</p>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div style="color:#1B745C; font-family: Selfica-light; font-size:22px;" class=" esas column">Phone</div>
+                    <div style="color:#009688; font-family:Selfica;" class="sub column">
+                        <p style="font-size: 14px;" class="sub">1) +994 50 364 84 93
+                            <br> 2) +994 55 753 19 35</p>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div style="color:#1B745C; font-weight: bold; font-family:Selfica-light;font-size:22px;" class="esas column">Mails</div>
+                    <div  style="color: #009688;" class="sub column">
+                        
+                        <p style="font-size:14px;" class="sub">For information: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  info@notefixation.org &nbsp;&nbsp;&nbsp; Technical support: &nbsp;&nbsp;&nbsp;&nbsp; support@teching.co&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Career:&nbsp;&nbsp;&nbsp;&nbsp; career@teching.co</p>
+                    </div>
+                </div>
+                <div style="display:table; margin:120px auto;" class="field is-grouped">
+                    <input style="padding:7px;border-radius:2px;border-color:#009688;" type="email" placeholder="contact us, write your mail">
+                    <input type="button" value="Send" style="border-color:#009688; font-family: Selfica;color: #1B745C;padding: 0px 20px 0px 20px;" class="button">
+                </div>
+            </div>
+            <div id="map" class="column">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12157.470495914024!2d49.8485665!3d40.3785442!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x53a5c1e7cc11c36f!2z0JDQt9C10YDQsdCw0LnQtNC20LDQvdGB0LrQuNC5INCT0L7RgdGD0LTQsNGA0YHRgtCy0LXQvdC90YvQuSDQo9C90LjQstC10YDRgdC40YLQtdGCINCd0LXRhNGC0Lgg0Jgg0J_RgNC-0LzRi9GI0LvQtdC90L3QvtGB0YLQuA!5e0!3m2!1sru!2s!4v1532171407191" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    <footer style="margin-top:-75px;" class="has-text-centered">
+        <div class="container">
+            <hr style=" display: block;
+                        height: 1px;
+                        border: 0;
+                        border-top: 1px solid #1B745C;;
+                        margin: 1em 0;
+                        padding: 0;">
+        </div>
+        <h5>©
+             <a href="http://www.teching.co" style="font-weight: bold; color: #1B745C;">
+                Teching
+            </a> 
+                Limited 2017 - 2018. All rights reserved.
+        </h5>
+    </footer>
+<div class="scroll-top-wrapper ">
+    <span class="scroll-top-inner">
+      <i class="fa fa-2x fa-arrow-circle-up"></i>
+    </span>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bulma-carousel@3.0.0/dist/js/bulma-carousel.min.js"></script>
+<script type="text/javascript" src="js/bulma-carousel.min.js"></script>
+<script src="js/web.js"></script>
+</body>
+
+
+</html>
